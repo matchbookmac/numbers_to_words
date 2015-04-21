@@ -21,6 +21,8 @@ class Fixnum
         else
           written_number.push(tens_digit.fetch(number_digits[index]))
         end
+      elsif(index.eql?(2))
+        written_number.push(ones_digit.fetch(number_digits[index]) + " hundred")        
       end
 
     end

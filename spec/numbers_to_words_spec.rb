@@ -14,4 +14,7 @@ describe('Fixnum#numbers_to_words') do
   it("Given a Fixnum between 0 and 999, the method will return the written equivalent") do
     expect(675.numbers_to_words()).to(eq('six hundred seventy five'))
   end
+  it("Given a Fixnum between 0 and 1,000,000,000,000, the method will return the written equivalent") do
+    expect(4300675.numbers_to_words()).to(eq('four million three hundred thousand six hundred seventy five'))
+  end
 end

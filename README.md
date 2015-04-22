@@ -1,6 +1,8 @@
-4, 000, 356
-four million three hundred and fifty six
+Given any positive integer, less than 999,999,999,999,999, the method will return a string of the written equivalent of that number.
 
-Given a number between 0 and 999, the program will return the written equivalent of that number.
+For example:
 
-Given any positive number, the program will return the written equivalent of that number.
+```ruby
+> 4000356.numbers_to_words()
+> "four million three hundred and fifty six"
+```
